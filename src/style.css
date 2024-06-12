@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 2em !important;
+  /* width: 2.5em !important; */
 }
 
 .navbar-nav .nav-link {
@@ -608,12 +608,24 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+/* .resume {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+} */
 
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .resume-left {
