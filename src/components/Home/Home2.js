@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,39 +19,41 @@ function Home2() {
               THERE IS <span className="purple"> MORE </span> ABOUT ME
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              I am a dedicated 
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> GIS expert and Software Engineer </b>
+              </i> with over five (5) years of experience in GIS analysis, application development, data analysis, and management.
+              <br />
+              <br />
+              I am skilled in using tools and programming languages such as
+              <i>
+                <b className="purple"> C, Python, JavaScript, R and SQL.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Whenever possible, I apply my passion for creating efficient applications with
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> GIS tools </b>
               </i>
+              and modern software development practices.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I possess strong 
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
+                <b className="purple"> communication </b>
+              </i>, 
               <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+                <b className="purple"> organizational </b>
+              </i>, and 
+              <i>
+                <b className="purple"> problem-solving skills </b>
+              </i>, and have a proven ability to 
+              <i>
+                <b className="purple"> work effectively in team environments </b>
+              </i>.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
@@ -67,7 +69,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/bravemaster3"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://x.com/bravemaster3"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +89,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/koffi-dodji-noumonvi-8a578a89/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +99,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/bravemaster3/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

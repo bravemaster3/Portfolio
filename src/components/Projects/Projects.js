@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import posteddypro from "../../Assets/Projects/posteddypro.png";
+import tutorplan from "../../Assets/Projects/tutorplan.png";
+import huhola from "../../Assets/Projects/huhola.png";
+import MireVegetation from "../../Assets/Projects/MireVegetation.png";
+import alxhalloffame from "../../Assets/Projects/alxhalloffame.png";
+import MireChronosequence from "../../Assets/Projects/MireChronosequence.png";
 
 function Projects() {
   return (
@@ -18,73 +18,69 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Check out some of my recent projects.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={MireVegetation}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Mire vegetation WebMap"
+              description="This is a webGIS made with ArcGIS online after performing vegetation classification with machine learning (random forest) in QGIS. This webGIS allows you to visualize a mire complex vegetation classes, and can serve in the field as a solid basemap."
+              demoLink="https://gis-slu.maps.arcgis.com/apps/View/index.html?appid=7d485f469233422aa98a5d49e031fd44"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={MireChronosequence}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Mire Chronosequence webGIS"
+              description="A webGIS created with QGIS2Web, but then customized the html, javascript and css code to be able to show images and search locations. This application is like a storymap. Click on points or polygons to see images, change the basemap, search sites by name, ..."
+              ghLink="https://github.com/bravemaster3/MiresChrono"
+              demoLink="https://slughg.github.io/MiresChrono/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={huhola}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="HuHoLa python package"
+              description="HuHoLa is a simple python package for mapping mire microtopography with a single input, a digital elevation model. The package allows you to classify microtopography in 3 classes (Lawns, hollows and hummocks), with a bonus water table depth proxy."
+              ghLink="https://github.com/bravemaster3/huhola"         
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={posteddypro}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="PostEddyPro R package"
+              description="An R package developed to ease and streamline eddy covariance flux data processing following raw flux calculation in eddypro. The package includes different functions for quality control, gapfilling with machine learning (XGBoost or Random forest), etc."
+              ghLink="https://github.com/bravemaster3/PostEddyPro"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={tutorplan}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="TutorPlan"
+              description="Platform for registering for private courses and booking time in the tutor's calendar. The calendar is made such that it avoids double booking for everyone. This platform was developped with MySQL + Flask in the backend, and React JS in the frontend. Collaborators found on the about page."
+              ghLink="https://github.com/bravemaster3/TutorPlan"
+              demoLink="https://tutor-plan.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={alxhalloffame}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="ALX Hall Of Fame"
+              description="This is a repository for projects made by ALX students and alumni. The idea is to spark innovation, and ignit collaboration. The app features a users map and a public portfolio page for each user, useful to include in your CV. Developped with PostgreSQL, Django and React JS."
+              ghLink="https://github.com/bravemaster3/alx-hall-of-fame"
+              // demoLink="to come after deployment"
             />
           </Col>
         </Row>
