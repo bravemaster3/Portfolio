@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://xxx.vercel.app/" target="_blank">Koffi Dodji Noumonvi</a>
+  <a href="https://bravemaster3.vercel.app/" target="_blank">Koffi Dodji Noumonvi</a>
 </h2>
 
 <br/>
@@ -9,7 +9,7 @@ This has been forked and edited from [Soumyajit4419](https://github.com/soumyaji
 
 ## What this repository contains
 
-My personal portfolio <a href="https://xxx.vercel.app/" target="_blank">My portfolio</a> which features some of my GitHub projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://bravemaster3.vercel.app/" target="_blank">My portfolio</a> which features some of my GitHub projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies:
 
