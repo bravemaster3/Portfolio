@@ -80,7 +80,7 @@ function Projects() {
               title="ALX Hall Of Fame"
               description="This is a repository for projects made by ALX students and alumni. The idea is to spark innovation, and ignit collaboration. The app features a users map and a public portfolio page for each user, useful to include in your CV. Developped with PostgreSQL, Django and React JS."
               ghLink="https://github.com/bravemaster3/alx-hall-of-fame"
-              // demoLink="to come after deployment"
+              demoLink="https://alxhof.kndev.org"
             />
           </Col>
         </Row>
